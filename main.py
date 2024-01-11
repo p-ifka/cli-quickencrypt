@@ -5,7 +5,7 @@ from cryptography.fernet import Fernet
 
 ## SETTTINGS ##
 keyPath = os.path.dirname(os.path.abspath(sys.argv[0]))+"/key.key" #String: path of text file containing the encryption key, leave as "" to generate a new one
-debugInfo = True # boolean: whether or not to display debug info, when false, only the output will be printed
+debugInfo = False # boolean: whether or not to display debug info, when false, only the output will be printed
 
 ## functions
 def showHelp():
@@ -15,7 +15,8 @@ def showHelp():
     print("3. File: /path/to/file")
     print("3. text: 'text here'")
 def debugPrint(text):
-    print(text)
+    if(debugInfo == True):
+        print(text)
 
 
 
