@@ -15,5 +15,14 @@ Usage: quickencrypt [mode] [input type] [file/text]
 **[text]**: 'text here'
 
 ex:
-''' python main.py en text 'test' '''
-''' python main.py de text 'gAAAAABlutdAmEj1Q90NL3MQ3sa-44tB93ru60irx3IBti4-BLT_BmeiuR4BC3XV6SeC9kpRnffXy4gApW1qI4i9_nwfC7Lw6w==' '''
+
+``` shell
+python main.py en text 'test'
+```
+
+``` shell
+python main.py de text 'gAAAAABlutje55bx5YeGUONwVUmbYcjhbT1uCMiCHkN1Rhzq88FSxGtPP2MHNR9eo7--ap3yv4vgeQ0Bf2nhBZ3U81HbyC9CAA==''
+```
+
+
+
